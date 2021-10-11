@@ -18,8 +18,13 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
-.main {
+.input[name="email"]
+  .input[name="name"]
+  .input[name="address"]
+  .input[name="phone"]
+  .input[name="color"]
+  .input[name="delivery_date"]
+  .main {
   height: 100vh;
   display: flex;
   align-items: center;
